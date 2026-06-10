@@ -40,7 +40,6 @@ SpriteAtlas:
     - 04a464a127f294144aeea29cafa5776f: 21300000
     - 5e4b69b155accdc409a32f35b90a06ac: 21300000
     - fba2d69203294ab448c3f6b90025e115: 21300000
-    - 9058f9a2afd575d4584e41a767e147d2: 21300000
     - e3310ad36f9cb7344847a7a9a0a2a04a: 21300000
     - 108b097409e2ae049a5c1fc6247a558a: 21300000
     - 990526764a0def244a15035d5ac015d1: 21300000
@@ -52,7 +51,6 @@ SpriteAtlas:
   - {fileID: 21300000, guid: 04a464a127f294144aeea29cafa5776f, type: 3}
   - {fileID: 21300000, guid: 5e4b69b155accdc409a32f35b90a06ac, type: 3}
   - {fileID: 21300000, guid: fba2d69203294ab448c3f6b90025e115, type: 3}
-  - {fileID: 21300000, guid: 9058f9a2afd575d4584e41a767e147d2, type: 3}
   - {fileID: 21300000, guid: e3310ad36f9cb7344847a7a9a0a2a04a, type: 3}
   - {fileID: 21300000, guid: 108b097409e2ae049a5c1fc6247a558a, type: 3}
   - {fileID: 21300000, guid: 990526764a0def244a15035d5ac015d1, type: 3}
@@ -63,7 +61,6 @@ SpriteAtlas:
   - ui_bg_glow_star
   - ui_button_green_selected
   - ui_button_green_pressed
-  - ui_smoke
   - ui_bg_star_outlined_green
   - ui_button_green_normal
   - ui_bg_star_outlined_gray
