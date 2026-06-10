@@ -75,10 +75,28 @@ SpriteAtlas:
     bindAsDefault: 1
     isAtlasV2: 0
     cachedData: {fileID: 0}
-    packedSpriteRenderDataKeys: []
+    packedSpriteRenderDataKeys:
+    - 9fa7ff80f71bd88408ddff015726050a: 21300000
+    - ec6d44c06ef6ef842bad0bf6c29048fc: 21300000
+    - 8fb6c1f38580a444e9bc7a97b49e0392: 21300000
+    - d26ee4c8578ba16409e5fbe028609c07: 21300000
+    - 9a16fcc836ee3534fb9bdbba1b42668f: 21300000
+    - b5c545ae5e8eda943aa9a8dc30a7f5fc: 21300000
   m_MasterAtlas: {fileID: 0}
-  m_PackedSprites: []
-  m_PackedSpriteNamesToIndex: []
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 9fa7ff80f71bd88408ddff015726050a, type: 3}
+  - {fileID: 21300000, guid: ec6d44c06ef6ef842bad0bf6c29048fc, type: 3}
+  - {fileID: 21300000, guid: 8fb6c1f38580a444e9bc7a97b49e0392, type: 3}
+  - {fileID: 21300000, guid: d26ee4c8578ba16409e5fbe028609c07, type: 3}
+  - {fileID: 21300000, guid: 9a16fcc836ee3534fb9bdbba1b42668f, type: 3}
+  - {fileID: 21300000, guid: b5c545ae5e8eda943aa9a8dc30a7f5fc, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - ui_icon_checkmark
+  - ui_icon_christmas_gift
+  - ui_icon_res_poster
+  - ui_icon_res_energy
+  - ui_icon_christmas_holly
+  - ui_icon_res_pumpkin
   m_RenderDataMap: {}
   m_Tag: CommonIcons_atlas
   m_IsVariant: 0
