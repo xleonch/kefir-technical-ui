@@ -178,9 +178,9 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 5374117539028472998}
   - {fileID: 4212842798138728463}
   - {fileID: 4936816101047960471}
-  - {fileID: 5374117539028472998}
   - {fileID: 5655864673900741671}
   m_Father: {fileID: 8623513362054482608}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -201,7 +201,7 @@ GameObject:
   - component: {fileID: 1229030573335839616}
   - component: {fileID: 4907203153936279905}
   m_Layer: 5
-  m_Name: Panel
+  m_Name: bgPanel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -596,7 +596,7 @@ MonoBehaviour:
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 2
+  m_PixelsPerUnitMultiplier: 4
 --- !u!1 &4414340387966311738
 GameObject:
   m_ObjectHideFlags: 0
@@ -810,7 +810,7 @@ GameObject:
   - component: {fileID: 729159907666309163}
   - component: {fileID: 8704036532544263250}
   m_Layer: 5
-  m_Name: Panel
+  m_Name: bgPanel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -823,12 +823,12 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4883445263710907134}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 2246290814715124315}
+  m_Father: {fileID: 6638820469264609464}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 0}
@@ -963,8 +963,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 2148733979
-  m_fontColor: {r: 0.105882354, g: 0.078431375, b: 0.07450981, a: 0.5019608}
+    rgba: 1712526363
+  m_fontColor: {r: 0.105882354, g: 0.078431375, b: 0.07450981, a: 0.4}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -1035,8 +1035,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6638820469264609464}
-  - component: {fileID: 9047733848981459600}
-  - component: {fileID: 8683575892711433180}
   m_Layer: 5
   m_Name: Background
   m_TagString: Untagged
@@ -1056,6 +1054,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 2527855424029016824}
   - {fileID: 7625208516278142983}
   - {fileID: 6696116106618746852}
   m_Father: {fileID: 2246290814715124315}
@@ -1065,44 +1064,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!222 &9047733848981459600
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6249790581921706519}
-  m_CullTransparentMesh: 1
---- !u!114 &8683575892711433180
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6249790581921706519}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
-  m_Material: {fileID: 0}
-  m_Color: {r: 0.8117647, g: 0.76862746, b: 0.67058825, a: 0.4}
-  m_RaycastTarget: 0
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: cd5d6a5efeb67d34ab20907e3122bcaf, type: 3}
-  m_Type: 1
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 2
 --- !u!1 &6284426732511349812
 GameObject:
   m_ObjectHideFlags: 0
@@ -1389,7 +1350,7 @@ MonoBehaviour:
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 2
+  m_PixelsPerUnitMultiplier: 4
 --- !u!1 &7612805958170161592
 GameObject:
   m_ObjectHideFlags: 0
@@ -1403,7 +1364,7 @@ GameObject:
   - component: {fileID: 8449514266366363231}
   - component: {fileID: 3283206128504392964}
   m_Layer: 5
-  m_Name: Panel
+  m_Name: bgPanel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1449,7 +1410,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.8}
   m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1589,9 +1550,9 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 3612003438133464122}
   - {fileID: 3343052338361703670}
   - {fileID: 7753078042585062089}
-  - {fileID: 3612003438133464122}
   - {fileID: 9116856188137431313}
   - {fileID: 4221717267144426300}
   m_Father: {fileID: 8623513362054482608}
@@ -2041,7 +2002,6 @@ RectTransform:
   m_Children:
   - {fileID: 6638820469264609464}
   - {fileID: 6082828407189450445}
-  - {fileID: 2527855424029016824}
   - {fileID: 6388717796073865634}
   - {fileID: 8259958389025103661}
   - {fileID: 6961908278201745824}
@@ -2176,7 +2136,7 @@ MonoBehaviour:
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 2
+  m_PixelsPerUnitMultiplier: 4
 --- !u!1001 &5223903215509555577
 PrefabInstance:
   m_ObjectHideFlags: 0

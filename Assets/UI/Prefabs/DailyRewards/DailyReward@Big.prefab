@@ -8,6 +8,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1090066147561497386, guid: 65d1fc236165af94f92c90dc3024219e, type: 3}
+      propertyPath: m_fontColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1090066147561497386, guid: 65d1fc236165af94f92c90dc3024219e, type: 3}
+      propertyPath: m_fontColor32.rgba
+      value: 4279440411
+      objectReference: {fileID: 0}
     - target: {fileID: 2314635043962957580, guid: 65d1fc236165af94f92c90dc3024219e, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
@@ -59,6 +67,10 @@ PrefabInstance:
     - target: {fileID: 4959612267187980732, guid: 65d1fc236165af94f92c90dc3024219e, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5792417549627494473, guid: 65d1fc236165af94f92c90dc3024219e, type: 3}
+      propertyPath: m_Color.a
+      value: 0.29803923
       objectReference: {fileID: 0}
     - target: {fileID: 7786487183801458935, guid: 65d1fc236165af94f92c90dc3024219e, type: 3}
       propertyPath: m_AnchorMax.y
