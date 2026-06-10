@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7964091420649163828}
   m_Layer: 5
-  m_Name: ProgressBar
+  m_Name: RewardsProgressBar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

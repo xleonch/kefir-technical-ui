@@ -263,7 +263,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4675398075511513595, guid: 09008afe2b49ad646b1a3b92aba74b8e, type: 3}
       propertyPath: m_Name
-      value: ui_kit_button_green
+      value: CollectRewardsButton
       objectReference: {fileID: 0}
     - target: {fileID: 5477917442189218975, guid: 09008afe2b49ad646b1a3b92aba74b8e, type: 3}
       propertyPath: m_Pivot.x
@@ -938,7 +938,7 @@ Canvas:
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
   m_VertexColorAlwaysGammaSpace: 0
-  m_AdditionalShaderChannelsFlag: 25
+  m_AdditionalShaderChannelsFlag: 0
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
   m_SortingOrder: 0
@@ -2947,7 +2947,7 @@ GameObject:
   - component: {fileID: 2032030967}
   - component: {fileID: 2032030966}
   m_Layer: 5
-  m_Name: Header
+  m_Name: HeaderText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

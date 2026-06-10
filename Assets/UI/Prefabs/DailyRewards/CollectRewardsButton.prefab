@@ -550,7 +550,7 @@ GameObject:
   - component: {fileID: 5477917442189218975}
   - component: {fileID: 6656916023293932999}
   m_Layer: 5
-  m_Name: ui_kit_button_green
+  m_Name: CollectRewardsButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
