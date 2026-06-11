@@ -155,7 +155,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3283658652893634025, guid: 09008afe2b49ad646b1a3b92aba74b8e, type: 3}
       propertyPath: isFrom
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3283658652893634025, guid: 09008afe2b49ad646b1a3b92aba74b8e, type: 3}
       propertyPath: target
@@ -175,7 +175,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3283658652893634025, guid: 09008afe2b49ad646b1a3b92aba74b8e, type: 3}
       propertyPath: endValueV3.y
-      value: -800
+      value: -1500
       objectReference: {fileID: 0}
     - target: {fileID: 3283658652893634025, guid: 09008afe2b49ad646b1a3b92aba74b8e, type: 3}
       propertyPath: easeCurve.m_Curve.Array.size
@@ -291,7 +291,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5477917442189218975, guid: 09008afe2b49ad646b1a3b92aba74b8e, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -700
+      value: 160
       objectReference: {fileID: 0}
     - target: {fileID: 5477917442189218975, guid: 09008afe2b49ad646b1a3b92aba74b8e, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x

@@ -54,7 +54,7 @@ MonoBehaviour:
   _conformX: 0
   _conformY: 1
   _logging: 0
-  _offsetAreaIOS: {x: 0, y: 32}
-  _offsetNoAreaIOS: {x: 0, y: 32}
-  _offsetAreaAndroid: {x: 0, y: 32}
-  _offsetNoAreaAndroid: {x: 0, y: 32}
+  _offsetAreaIOS: {x: 0, y: 8}
+  _offsetNoAreaIOS: {x: 0, y: 0}
+  _offsetAreaAndroid: {x: 0, y: 8}
+  _offsetNoAreaAndroid: {x: 0, y: 0}
