@@ -163,7 +163,7 @@ PrefabInstance:
       objectReference: {fileID: 63223582}
     - target: {fileID: 3283658652893634025, guid: 09008afe2b49ad646b1a3b92aba74b8e, type: 3}
       propertyPath: autoKill
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3283658652893634025, guid: 09008afe2b49ad646b1a3b92aba74b8e, type: 3}
       propertyPath: duration
