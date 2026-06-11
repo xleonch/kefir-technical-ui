@@ -1014,6 +1014,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Point@1
       objectReference: {fileID: 0}
+    - target: {fileID: 3803892674341382049, guid: c57418dac13b8d7499a68e6ec90762b9, type: 3}
+      propertyPath: delay
+      value: 1.6
+      objectReference: {fileID: 0}
     - target: {fileID: 4100292080703863637, guid: c57418dac13b8d7499a68e6ec90762b9, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -1033,6 +1037,14 @@ PrefabInstance:
     - target: {fileID: 4100292080703863637, guid: c57418dac13b8d7499a68e6ec90762b9, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4595459770785009812, guid: c57418dac13b8d7499a68e6ec90762b9, type: 3}
+      propertyPath: delay
+      value: 1.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5067831890349047533, guid: c57418dac13b8d7499a68e6ec90762b9, type: 3}
+      propertyPath: delay
+      value: 1.6
       objectReference: {fileID: 0}
     - target: {fileID: 5205331011159958954, guid: c57418dac13b8d7499a68e6ec90762b9, type: 3}
       propertyPath: m_Pivot.x
@@ -1187,6 +1199,18 @@ PrefabInstance:
     - target: {fileID: 3088685477794686487, guid: c57418dac13b8d7499a68e6ec90762b9, type: 3}
       propertyPath: m_Name
       value: Point@2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3803892674341382049, guid: c57418dac13b8d7499a68e6ec90762b9, type: 3}
+      propertyPath: delay
+      value: 1.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 4595459770785009812, guid: c57418dac13b8d7499a68e6ec90762b9, type: 3}
+      propertyPath: delay
+      value: 1.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 5067831890349047533, guid: c57418dac13b8d7499a68e6ec90762b9, type: 3}
+      propertyPath: delay
+      value: 1.9
       objectReference: {fileID: 0}
     - target: {fileID: 5205331011159958954, guid: c57418dac13b8d7499a68e6ec90762b9, type: 3}
       propertyPath: m_Pivot.x

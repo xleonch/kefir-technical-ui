@@ -120,6 +120,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 5205331011159958954}
     m_Modifications:
+    - target: {fileID: 1276613185057835791, guid: 0b82163240aa2ad439def6d4624b06fb, type: 3}
+      propertyPath: endValueV3.y
+      value: 60
+      objectReference: {fileID: 0}
     - target: {fileID: 2049791073436203973, guid: 0b82163240aa2ad439def6d4624b06fb, type: 3}
       propertyPath: m_Name
       value: BarReward
