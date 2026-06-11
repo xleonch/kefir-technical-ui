@@ -1,8 +1,5 @@
 using System.Diagnostics.CodeAnalysis;
 using UnityEngine;
-using Vector2 = UnityEngine.Vector2;
-using Vector3 = UnityEngine.Vector3;
-using Vector4 = UnityEngine.Vector4;
 
 [SuppressMessage("ReSharper", "InconsistentNaming")]
 // ReSharper disable once CheckNamespace

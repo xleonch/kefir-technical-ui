@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace Client.Core.UI.Controls {
+namespace Code {
 
 	[RequireComponent(typeof(CanvasRenderer))]
 	public class UIEmptyGraphic : Graphic {
